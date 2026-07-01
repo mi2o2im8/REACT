@@ -8,7 +8,7 @@ function Intro(){
     // 버튼 클릭시 발동할 함수들
     const goLogin= ()=>{
         // 페이지 이동할때 여러개의 값을 전달하고 싶다면.. 서브경로는 어려움.
-        navigate('/login]')
+        navigate('/login')
     }
 
     const goSignup= ()=>{

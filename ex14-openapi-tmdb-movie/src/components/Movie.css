@@ -1,0 +1,49 @@
+.Card{
+    width: 300px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    margin: 1rem .5rem;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+
+    /* hover되었을때 전환효과 */
+    transition: transform .5s, backgorund-color .5s;
+}
+
+.Card .title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.Card .year{
+    padding: 1rem;
+}
+
+.Card .ratin{
+    padding: 0.5rem;
+}
+.Card .ratin span{
+    font-weight: bold;
+    color: blue;
+}
+
+.Card .poster img{
+    width: 90%;
+    border-radius: 8px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5rem;
+}
+
+.Card:hover{
+    cursor: pointer;
+
+    transform: scale(1.05, 1.05);
+    background-color: lightyellow;
+}
